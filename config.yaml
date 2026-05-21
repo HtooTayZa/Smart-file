@@ -1,0 +1,14 @@
+# Directories to scan
+source_dirs:
+  - "C:/Users/LENOVO/Downloads"
+
+# Target destinations and the extensions that belong there (can add as needed)
+rules:
+  "C:/Users/LENOVO/Documents/PDFs":
+    - .pdf
+  "C:/Users/LENOVO/Pictures":
+    - .jpg
+    - .png
+
+# Options for dealing with name collisions: rename, overwrite, skip
+collision_strategy: "rename"
